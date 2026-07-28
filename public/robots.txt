@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mitsuya0077.github.io/vr-vlog/sitemap.xml
