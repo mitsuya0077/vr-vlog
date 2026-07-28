@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/prepare-dist.mjs",
+    "build": "next build",
     "build:pages": "next build",
+    "build:sites": "next build && node scripts/prepare-dist.mjs",
     "start": "next start",
     "lint": "tsc --noEmit"
   },
